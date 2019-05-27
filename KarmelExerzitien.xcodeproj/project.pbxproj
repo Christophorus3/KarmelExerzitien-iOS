@@ -87,6 +87,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3ED4CB7A1A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ED4CB7B1A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/iPhone.strings; sourceTree = "<group>"; };
+		3ED4CB7C1A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = de; path = de.lproj/stylepjacques.css; sourceTree = "<group>"; };
+		3ED4CB7D1A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = de; path = de.lproj/pjacques.jpg; sourceTree = "<group>"; };
+		3ED4CB7E1A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = de.lproj/pjacques.html; sourceTree = "<group>"; };
+		3ED4CB7F1A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3ED4CB801A3260C200878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ED4CB841A32623900878F59 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = de; path = de.lproj/p_jacques_cover.jpg; sourceTree = "<group>"; };
 		8310A05319A48C7F0012ED7B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		8310A05419A48C7F0012ED7B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8310A05619A48E640012ED7B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
@@ -612,6 +620,7 @@
 				8317EB3A1A17803900BDBAE7 /* Base */,
 				83A830F61A1A1D390071F57F /* it */,
 				835F275B1A22985B00394354 /* en */,
+				3ED4CB7B1A3260C200878F59 /* de */,
 			);
 			name = iPhone.storyboard;
 			sourceTree = "<group>";
@@ -622,6 +631,7 @@
 				8317EB4C1A18B16B00BDBAE7 /* Base */,
 				8317EB4E1A18B17D00BDBAE7 /* it */,
 				835F275F1A22986800394354 /* en */,
+				3ED4CB7F1A3260C200878F59 /* de */,
 			);
 			name = Localizable.strings;
 			path = ..;
@@ -633,6 +643,7 @@
 				83612C3D1A1CF35C00235306 /* Base */,
 				83612C3F1A1CF36800235306 /* it */,
 				835F275C1A22986800394354 /* en */,
+				3ED4CB7C1A3260C200878F59 /* de */,
 			);
 			name = stylepjacques.css;
 			path = Content;
@@ -642,6 +653,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				83722CD91A23A13C0008D9E9 /* Base */,
+				3ED4CB841A32623900878F59 /* de */,
 			);
 			name = p_jacques_cover.jpg;
 			sourceTree = "<group>";
@@ -651,6 +663,7 @@
 			children = (
 				8317EB3C1A17805A00BDBAE7 /* it */,
 				83722CD71A238E410008D9E9 /* en */,
+				3ED4CB7A1A3260C200878F59 /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -659,6 +672,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8317EB3D1A17805A00BDBAE7 /* it */,
+				3ED4CB801A3260C200878F59 /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -669,6 +683,7 @@
 				83E1F6491A18CB6A00A13654 /* Base */,
 				83E1F64B1A18CB7800A13654 /* it */,
 				835F275E1A22986800394354 /* en */,
+				3ED4CB7E1A3260C200878F59 /* de */,
 			);
 			name = pjacques.html;
 			path = Content;
@@ -680,6 +695,7 @@
 				83E1F64D1A18CD9F00A13654 /* Base */,
 				83E1F64F1A18CDA500A13654 /* it */,
 				835F275D1A22986800394354 /* en */,
+				3ED4CB7D1A3260C200878F59 /* de */,
 			);
 			name = pjacques.jpg;
 			path = Content;
@@ -721,7 +737,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "81c1500a-0dbf-43b2-ba1b-c27c690f783e";
 				SDKROOT = iphoneos;
@@ -756,7 +772,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PROVISIONING_PROFILE = "81c1500a-0dbf-43b2-ba1b-c27c690f783e";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -778,7 +794,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KarmelExerzitien/KarmelExerzitien-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/KarmelExerzitien/KarmelExerzitien-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				"LIBRARY_SEARCH_PATHS[arch=*]" = Parse;
 				PRODUCT_NAME = KarmelExerzitien;
 				PROVISIONING_PROFILE = "";
@@ -800,7 +816,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KarmelExerzitien/KarmelExerzitien-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/KarmelExerzitien/KarmelExerzitien-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				"LIBRARY_SEARCH_PATHS[arch=*]" = Parse;
 				PRODUCT_NAME = KarmelExerzitien;
 				PROVISIONING_PROFILE = "";

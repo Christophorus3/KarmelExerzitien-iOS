@@ -11,8 +11,6 @@
             continueAfterRunningActions = "No"
             symbolName = "NSKVODeallocateBreak"
             moduleName = "">
-            <Locations>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
